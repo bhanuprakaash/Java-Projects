@@ -6,7 +6,7 @@ class Notes2 {
   static Scanner scanner = new Scanner(System.in);
 
   public static void main(String args[]) {
-    File file = new File("/storage/emulated/0/javaNIDE/Trail/app/Settings.txt");
+    File file = new File("FILE PATH!!!!");
     String noOfNotesInFile = null;
     if (file.exists()) {
       System.out.println("File was Found");
